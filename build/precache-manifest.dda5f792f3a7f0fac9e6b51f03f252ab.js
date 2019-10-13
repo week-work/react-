@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "459bed1fbe8de11f29a92fb64fc34342",
+    "revision": "676917cefef03b15bdd034832c8b0241",
     "url": "./index.html"
   },
   {
-    "revision": "5038e999792a0053276b",
-    "url": "./static/css/main.77c847d3.chunk.css"
+    "revision": "48fcc9300d6b447f95ec",
+    "url": "./static/css/main.a4053f0d.chunk.css"
   },
   {
-    "revision": "e37488bd37275a7059f5",
-    "url": "./static/js/2.11d2fdb0.chunk.js"
+    "revision": "f014cf1773be8c2ae671",
+    "url": "./static/js/2.cd54296d.chunk.js"
   },
   {
-    "revision": "5038e999792a0053276b",
-    "url": "./static/js/main.1cbdc838.chunk.js"
+    "revision": "48fcc9300d6b447f95ec",
+    "url": "./static/js/main.fbcf987b.chunk.js"
   },
   {
     "revision": "9dd411216259bdd9bace",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6213288c076eacc35ef6124fc9d46103",
     "url": "./static/media/iphone8.6213288c.jpg"
+  },
+  {
+    "revision": "3fa8df0815a4058d7741afb6ece13197",
+    "url": "./static/media/logo图标.3fa8df08.png"
   }
 ]);
