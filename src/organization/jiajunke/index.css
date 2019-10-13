@@ -1,0 +1,81 @@
+.zheng-bottom {
+  width: 1200px;
+  height: 290px;
+  margin-top: 30px;
+  margin: auto;
+}
+.zheng-bottom-box {
+  width: 1200px;
+  height: 460px;
+  margin: 0 auto;
+}
+#tmall-ensure {
+  width: 1190px;
+  height: 100px;
+  background: url(//gw.alicdn.com/tfs/TB1ffDZhgMPMeJjy1XcXXXpppXa-1190-60.jpg)
+    no-repeat;
+  height: 60px;
+  margin: 20px auto;
+  padding: 0;
+}
+.zheng-bottom-box-b {
+  width: 100%;
+  height: 179px;
+  padding-top: 30px;
+  border-bottom: 1px solid #dedede;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dedede;
+}
+.b-cell {
+  width: 120px;
+  height: 170px;
+}
+.b-cell6 {
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+.logo {
+  width: 100px;
+  height: 154px;
+  background-image: url('//img.alicdn.com/tfs/TB1bFfkNFXXXXb5XFXXXXXXXXXX-120-180.png');
+  background-size: 100%;
+  margin-top: 25px;
+}
+.weima {
+  width: 100px;
+  height: 100px;
+  background-image: url('./download.png');
+  background-size: 100%;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.b-cell ul > li:nth-child(1) {
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 3px;
+}
+.b-cell ul {
+  width: 150px;
+  list-style: none;
+}
+.b-cell ul > li > a {
+  color: #666666;
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 3px;
+}
+.b-cell ul > li > a:hover,
+.b-cell6 ul > li:nth-child(3) > a:hover,
+.zheng-bottom-box-c ul li a:hover {
+  text-decoration: underline;
+}
+.b-cell6 ul > li {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
