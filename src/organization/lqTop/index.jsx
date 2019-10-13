@@ -1,8 +1,11 @@
 // LQ头部
 import React, { Component } from 'react'
 import './index.scss'
-import imgMore1 from './img/imgMore1.png' //图片1
-import imgMore2 from './img/imgMore2.png' //图片2
+import imgMore1 from './img/imgMore1.png' //文字图片1
+import imgMore2 from './img/imgMore2.png' //文字图片2
+import fl from './img/fl.png' //文字图片3
+import nav from './img/nav.png'
+
 // 图片数据
 const imgs = [
   {
@@ -39,7 +42,6 @@ export default class index extends Component {
   render() {
     return (
       <div className="lqTop">
-
         {/* 品牌、分类部分 */}
         <div className="lqTop-top">
           {/* 品牌部分 */}
@@ -64,10 +66,26 @@ export default class index extends Component {
               </div>
             </div>
           </div>
+          {/* 分类部分 */}
+          <div className="lqTop-top-sort">
+            <div className="lqTop-top-sort-item1">
+              <img src={fl} alt="" />
+            </div>
+            <div className="lqTop-top-sort-item2">
+              <p>手机</p>
+            </div>
+            <div className="lqTop-top-sort-item3">
+              <img src={imgMore2} alt="" />
+            </div>
+          </div>
+          {/* 部分背景颜色 */}
           <div className="lqTop-top-background"></div>
         </div>
 
-            {/*  */}
+        {/* 固定导航 */}
+        <div className="lqTop-top-nav">
+          <img src={nav} alt="" />
+        </div>
       </div>
     )
   }

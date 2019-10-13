@@ -4,18 +4,19 @@
 }
 .flex1 {
   display: flex;
-  padding-left: -20px;
+  margin-left: -48px;
 }
 .flex2 {
   margin-left: 150px;
   display: flex;
 }
-img {
-  width: 22px;
-  height: 22px;
-  margin: 0px -30px 0px 0px;
+.shuhaoqi img {
+  width: 20px;
+  height: 18px;
+  margin: 3px -30px 0px 1px;
 }
-.img1 {
+
+.shuhaoqi .img1 {
   width: 16px;
   height: 16px;
   margin: 0px 4px 0px 0px;
@@ -23,6 +24,7 @@ img {
 ul li {
   list-style: none;
   color: #ccc;
+  cursor: pointer;
 }
 .li-1 {
   font-size: 12px;
@@ -40,6 +42,7 @@ ul li {
   width: 300px;
   height: 80px;
   float: left;
+  margin-left: -8px;
 }
 .main-right {
   width: 650px;
@@ -47,7 +50,7 @@ ul li {
   margin: auto;
   position: relative;
 }
-.logoimg {
+.shuhaoqi .logoimg {
   width: 145px;
   height: 44px;
 }
@@ -55,6 +58,10 @@ ul li {
   width: 500px;
   height: 38px;
   border: 3px solid #3c6cc5;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+  text-indent: 7px;
 }
 .but-back {
   width: 100px;
@@ -64,6 +71,7 @@ ul li {
   color: white;
   font-size: 16px;
   position: absolute;
+  cursor: pointer;
 }
 .ul-back {
   display: flex;
@@ -73,6 +81,7 @@ ul li {
 .ul-back .li-3 {
   color: #838383;
   font-size: 12px;
+  margin-top: 4px;
 }
 .li-3:hover {
   color: #ea3340;
@@ -102,6 +111,7 @@ ul li {
   font-weight: bold;
   font-size: 14px;
   padding: 0px 25px 0px 20px;
+  color: #333;
 }
 .footer-right {
   width: 330px;
@@ -111,12 +121,13 @@ ul li {
 .foo-p {
   float: right;
   font-size: 14px;
+  margin: 0;
 }
 
 .foot-hea {
   width: 1200px;
   height: 25px;
-  margin: auto;
+  margin: 8px auto;
   position: relative;
 }
 .foot-hea-left {
@@ -129,6 +140,7 @@ ul li {
   float: left;
   color: #929292;
   font-size: 14px;
+  margin: 0;
 }
 .foot-hea-p1 {
   float: left;
@@ -158,32 +170,31 @@ ul li {
 .foot-hea-p2 {
   color: #999;
   font-size: 14px;
+  margin-top: 0;
 }
 
 .foo1-back {
   width: 1200px;
   height: 25px;
   border: 1px solid red;
-  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 .foo1-div1 {
   width: 900px;
   height: 25px;
-  border: 1px solid aqua;
-  float: left;
-  margin-left: -325px;
 }
 .foo1-div2 {
   width: 200px;
   height: 25px;
-  border: 1px solid blue;
-  float: right;
-  margin-right: -150px;
+}
+.foo1-ul {
+  padding: 0;
 }
 
 .foo1-ul li {
-  width: 50px;
-  height: 24;
+  width: 55px;
+  height: 24px;
   border: 1px solid #999;
   font-size: 13px;
   color: #7d6f67;
@@ -193,7 +204,4 @@ ul li {
 
 .foo1-ul .foo1-li-01 {
   width: 150px;
-}
-
-.foo1-ul2 {
 }

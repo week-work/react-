@@ -14,13 +14,13 @@ import Shufooter1 from './component/shufooter1/shufooter1'
 export default class Index extends React.Component{
 	render(){
 		return(
-			<div>
+			<div className='shuhaoqi'>
 				<Shuheader/>
 				<Shumain/>
 				<Shufooter/>
 				<Shubottom/>
-				<Shufooter1/>
+				{/* <Shufooter1/> */}
 			</div>
 		)
 	}
-} 
+}
