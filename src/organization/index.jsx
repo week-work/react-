@@ -3,6 +3,7 @@ import Shuhaoqi from './shuhaoqi/' //舒浩奇部分
 import Wunna from './wunan/' //吴楠部分
 import Haoran from './hoaran/' //浩然部分
 import Jiajunke from './jiajunke/' //贾俊科部分
+import Lq from './lq/' //李强部分
 //我是根文件
 export default class index extends Component {
   render() {
@@ -16,6 +17,8 @@ export default class index extends Component {
         <Haoran />
         {/*贾俊科部分 */}
         <Jiajunke />
+        {/* 李强部分 */}
+        <Lq />
       </>
     )
   }
